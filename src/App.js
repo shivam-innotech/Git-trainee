@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ol>
+        <li>create a new repo.</li>
+        <li>
+          add all files, Commit, and Push react base code into main branch
+        </li>
+        <li>Create a new branch</li>
+        <li>it changes into new branch</li>
+      </ol>
+    </>
   );
-}
+};
 
 export default App;
